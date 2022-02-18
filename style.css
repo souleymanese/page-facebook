@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgba(77, 77, 243, 0.781);
+    color: white;
+     margin: 0; 
+}
+.root{
+    display: flex;
+    justify-content: space-around;
+}
+.alt{
+    display: flex;
+}
+label{
+    display: block;
+}
+.yayi{
+    display: flex;
+    justify-content: space-around;
+}
+.bb{
+    width: 59px;
+    height: 34px;
+    margin-top: 4%;
+    background-color: antiquewhite;
+    margin-left: 1%;
+
+}
+.see{
+    width: 39px;
+    height: 39px;
+    margin-left: 4%;
+}
+.t{
+    margin-left: 5px;
+}
+.lign{
+    display: flex; margin-top: 5px;
+}
+.g{
+    margin-left: 10px;
+    background-color: rgb(27, 209, 148);
+    width: 200px;
+    height: 27px;
+
+}
+.nn{
+    margin-top: 15px;
+    background-color: rgba(70, 70, 194, 0.781);
+}
+footer{
+    margin-top: 30px; border-top: 0.5px solid black;
+}
+.t2{
+    margin-left: 9%;
+}
+.l{
+    margin-top: 9px;
+}
+.vv{
+    margin: 0px 10px 0px 15px;
+}
+.x{
+  
+    width: 293px;
+}
+
+@media screen and (max-width:450px){
+
+
+    .root{
+        display: block;
+        justify-content: space-around;
+    }
+    .alt{
+        display: block;}
+
+        .yayi{
+            display: block;
+            justify-content: space-around;
+        }
+
+        .t{
+            margin-left: 5px;
+        }
+
+        .vv{
+            margin:0;
+        }
+       
+    
+}
+@media screen and (max-width:284px){
+
+
+    header{
+        background-color: rgba(77, 77, 243, 0.781);
+        color: white;
+          
+    }
+    .x{
+  
+        width: 100%;
+    }
+
+}
